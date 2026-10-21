@@ -1,0 +1,21 @@
+{
+  "name": "beautyiq-plugins",
+  "description": "BeautyIQ plugins: cross-brand makeup shade dupes and endocrine-disruption safety scores from the BeautyIQ engine.",
+  "plugins": [
+    {
+      "name": "beautyiq",
+      "source": "./plugins/beautyiq",
+      "version": "0.1.0",
+      "description": "Cross-brand makeup shade dupes (measured CIEDE2000 color distance + formula similarity) and endocrine-disruption safety scores, served read-only from the BeautyIQ catalog API.",
+      "displayName": "BeautyIQ — Shade Dupes & Safety",
+      "displayName_i18n": {
+        "zh-CN": "BeautyIQ 彩妆平替与安全评分"
+      },
+      "description_i18n": {
+        "zh-CN": "跨品牌彩妆色号平替（CIEDE2000 实测色差与配方相似度）与内分泌干扰物安全评分，只读远程 MCP。"
+      },
+      "category": "utilities",
+      "icon": "https://www.beautyiq.cloud/icons/icon-192.png"
+    }
+  ]
+}

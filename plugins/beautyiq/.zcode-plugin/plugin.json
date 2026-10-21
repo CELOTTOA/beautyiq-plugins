@@ -1,0 +1,13 @@
+{
+  "name": "beautyiq",
+  "version": "0.1.0",
+  "description": "Cross-brand makeup shade dupes (measured CIEDE2000 color distance + formula similarity) and endocrine-disruption safety scores, served read-only from the BeautyIQ catalog API.",
+  "author": { "name": "BeautyIQ" },
+  "mcpServers": {
+    "beautyiq": {
+      "type": "http",
+      "url": "https://api.beautyiq.cloud/mcp"
+    }
+  },
+  "skills": "./skills"
+}
